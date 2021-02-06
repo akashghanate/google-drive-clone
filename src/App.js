@@ -1,10 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/header';
 
 function App() {
+  // Authentication
+
+
+
   return (
     <div className="App">
-     {/* header */}
+      <Header />
+     {/* if auth: true
+      display: header, sidebar, RightsideIcons, filesView */}
+
+     {/* not authenticated: log-in */}
     </div>
   );
 }
