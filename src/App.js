@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './components/header';
+import Sidebar from './components/sidebar'
 
 function App() {
   // Authentication
@@ -9,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <Sidebar/>
      {/* if auth: true
       display: header, sidebar, RightsideIcons, filesView */}
 
