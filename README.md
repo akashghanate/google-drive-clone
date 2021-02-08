@@ -20,3 +20,12 @@ Google Drive clone using ReactJS
     ```
     yarn start
     ```
+## UI
+
+### Login Screen
+- Uses Google Provider login
+
+![img](./src/media/login.png)
+
+### Main Screen
+![img](./src/media/main_screen.png)
